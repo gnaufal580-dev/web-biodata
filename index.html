@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>biodata saya</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <nav>
+        <a href="index.html">home</a>
+        <a href="skill.html">skill</a>
+        <a href="proyek.html">proyek</a>
+        <a href="contak.html">kontak</a>
+    </nav>
+    <h1>biodata saya</h1>
+    <img src="foto-profil.jpg"  alt="foto profil saya" width="200">
+
+    <h2>tantang diri saya</h2>
+      <p>calon web devoloper</p>
+    <h2>data  diri saya</h2>
+      <ul>
+        <li>nama: ghani</li>
+        <li>hobi: main game</li>
+        <li>cita cita: progammer</li>
+        <li>alamat: tanggerang selatan</li>
+      </ul>
+
+    <button id="tombolSapa">Klik Saya</button>
+    <p id="hasilSapa"></p>
+
+      <footer>
+          <p>&copy; 2026 ghani. dibuat dengan html dan css.</p>
+      </footer>
+
+    <script>
+        const tombol = document.getElementById("tombolSapa");
+        const hasil = document.getElementById("hasilSapa");
+
+        tombol.addEventListener("click", function() {
+            hasil.textContent = "Halo! Terima kasih sudah mengunjungi web saya.";
+        });
+    </script>
+</body>
+</html>

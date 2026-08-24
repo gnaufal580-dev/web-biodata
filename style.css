@@ -1,0 +1,140 @@
+body {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #555;
+    padding-bottom: 16px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #cccccc;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-left: 3px solid #888;
+    padding-left: 10px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border: 3px solid #555;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+li {
+    background-color: #2b2b2b;
+    color: #e0e0e0;
+    padding: 10px 14px;
+    margin-bottom: 6px;
+    border-radius: 6px;
+    border-left: 3px solid #666;
+}
+
+p {
+    color: #cccccc;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 1px solid #666;
+}
+
+a:hover {
+    color: #aaaaaa;
+    border-bottom-color: #aaa;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 16px 0;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #444;
+}
+
+nav a {
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 0.95rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 8px 18px;
+    border: 1px solid #555;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: #1a1a1a;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+    color: #888;
+    font-size: 0.85rem;
+}
+
+.kartu-proyek {
+    background-color: #2b2b2b;
+    border: 1px solid #444;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.kartu-proyek h2 {
+    border-left: none;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+
+@media (max-width: 480px) {
+    body {
+        padding: 20px 15px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    img {
+        width: 140px;
+        height: 140px;
+    }
+}
